@@ -52,10 +52,10 @@ export default function HomePage() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20">
           <div className="text-center mb-16">
             <h1 className="text-4xl md:text-6xl font-bold mb-6 bg-gradient-to-r from-white via-gray-300 to-gray-500 bg-clip-text text-transparent">
-              Your complete platform for location services
+              Smart mapping for smarter driving
             </h1>
             <p className="text-xl text-gray-400 max-w-2xl mx-auto mb-8">
-              Find your way with precision. Built with modern technology and designed for the future.
+              Visualize traffic ticket hotspots on the map. Plan ahead and stay informed with cutting-edge location tracking.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <button className="bg-white text-black px-6 py-3 rounded-md font-medium hover:bg-gray-200 transition-colors">
@@ -176,7 +176,7 @@ export default function HomePage() {
       <footer className="border-t border-gray-800 mt-20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
           <div className="text-center text-gray-400">
-            <p>&copy; 2024 MapSite. All rights reserved.</p>
+            <p>&copy; 2025 MapSite. All rights reserved.</p>
           </div>
         </div>
       </footer>
@@ -207,7 +207,7 @@ export default function HomePage() {
               <div className="p-6">
                 <div className="mb-8">
                   <p className="text-xl text-gray-400 mb-6">
-                    Building the future of location services with cutting-edge technology and innovative design.
+                    Building the future of driver awareness through smart location data
                   </p>
                 </div>
 
@@ -215,17 +215,13 @@ export default function HomePage() {
                   <h3 className="text-xl font-bold text-white mb-4">Our Mission</h3>
                   <div className="space-y-4 text-gray-300">
                     <p>
-                      At MapSite, we believe that location services should be fast, accurate, and beautifully designed.
-                      We're building the next generation of mapping technology that puts user experience first.
+                      At MapSite, we believe drivers deserve more than just directions they deserve insight. We're building intelligent mapping tools that show where traffic tickets are being issued, helping users make informed decisions on the road.
                     </p>
                     <p>
-                      Our platform combines the power of Google Maps with modern web technologies to deliver
-                      lightning-fast performance and pixel-perfect design. Whether you're finding directions, exploring
-                      new places, or integrating location services into your applications, we make it simple.
+                      Our platform integrates real-time data with the power of modern web technology and mapping systems to create a seamless, responsive experience. Whether you're navigating your daily commute or planning a road trip, MapSite helps you avoid trouble spots and drive smarter.
                     </p>
                     <p>
-                      Founded in 2024, we're committed to pushing the boundaries of what's possible with location-based
-                      services while maintaining the highest standards of privacy and security.
+                      Founded in 2025, we're committed to redefining how location data is used — with transparency, usability, and privacy at the core.
                     </p>
                   </div>
                 </div>
@@ -236,19 +232,19 @@ export default function HomePage() {
                     <ul className="space-y-3 text-gray-300">
                       <li className="flex items-center">
                         <span className="w-2 h-2 bg-blue-500 rounded-full mr-3"></span>
-                        Innovation in mapping technology
+                        Data that empowers, not overwhelms
                       </li>
                       <li className="flex items-center">
                         <span className="w-2 h-2 bg-purple-500 rounded-full mr-3"></span>
-                        User-centered design
+                        Design that informs clearly and beautifully
                       </li>
                       <li className="flex items-center">
                         <span className="w-2 h-2 bg-green-500 rounded-full mr-3"></span>
-                        Privacy and security first
+                        Privacy and security by default
                       </li>
                       <li className="flex items-center">
                         <span className="w-2 h-2 bg-pink-500 rounded-full mr-3"></span>
-                        Global accessibility
+                        Accessible tools for drivers everywhere
                       </li>
                     </ul>
                   </div>
