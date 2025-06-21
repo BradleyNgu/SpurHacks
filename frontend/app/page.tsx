@@ -17,6 +17,16 @@ export default function HomePage() {
     document.body.style.overflow = "unset"
   }
 
+  const scrollToMap = () => {
+    const mapSection = document.getElementById("map-section")
+    if (mapSection) {
+      mapSection.scrollIntoView({
+        behavior: "smooth",
+        block: "start",
+      })
+    }
+  }
+
   return (
     <div className="min-h-screen bg-black text-white">
       {/* Navigation Bar */}
@@ -58,7 +68,10 @@ export default function HomePage() {
               Visualize traffic ticket hotspots on the map. Plan ahead and stay informed with cutting-edge location tracking.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <button className="bg-white text-black px-6 py-3 rounded-md font-medium hover:bg-gray-200 transition-colors">
+              <button
+                onClick={scrollToMap}
+                className="bg-white text-black px-6 py-3 rounded-md font-medium hover:bg-gray-200 transition-colors"
+              >
                 Get Started
               </button>
               <button className="border border-gray-600 text-white px-6 py-3 rounded-md font-medium hover:bg-gray-800 transition-colors">
@@ -75,7 +88,10 @@ export default function HomePage() {
       {/* Main Content */}
       <main className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
         {/* Map Section */}
-        <div className="bg-gray-900/50 rounded-xl border border-gray-800 overflow-hidden backdrop-blur-sm">
+        <div
+          id="map-section"
+          className="bg-gray-900/50 rounded-xl border border-gray-800 overflow-hidden backdrop-blur-sm scroll-mt-20"
+        >
           <div className="p-8 border-b border-gray-800">
             <h2 className="text-3xl font-bold text-white mb-4">Explore Our Location</h2>
             <p className="text-gray-400 text-lg">
@@ -143,7 +159,10 @@ export default function HomePage() {
             <p className="text-gray-400 mb-4">
               Intelligent routing and real-time directions to help you reach your destination efficiently.
             </p>
-            <button className="bg-white text-black px-4 py-2 rounded-md text-sm font-medium hover:bg-gray-200 transition-colors">
+            <button
+              onClick={scrollToMap}
+              className="bg-white text-black px-4 py-2 rounded-md text-sm font-medium hover:bg-gray-200 transition-colors"
+            >
               Get Directions
             </button>
           </div>
@@ -207,7 +226,7 @@ export default function HomePage() {
               <div className="p-6">
                 <div className="mb-8">
                   <p className="text-xl text-gray-400 mb-6">
-                    Building the future of driver awareness through smart location data
+                     Building the future of driver awareness through smart location data
                   </p>
                 </div>
 
