@@ -74,7 +74,7 @@ export default function SafetyMap({ apiKey }: SafetyMapProps) {
   const fetchSafetyData = async () => {
     try {
       console.log('🔄 Fetching safety data from backend...')
-      const response = await fetch('http://localhost:5000/api/safety-markers')
+      const response = await fetch('https://avoid-the-fine-backend-660696fc9123.herokuapp.com/api/safety-markers')
       
       if (!response.ok) {
         throw new Error(`HTTP error! status: ${response.status}`)
