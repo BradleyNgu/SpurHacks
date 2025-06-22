@@ -18,7 +18,7 @@ import json
 from datetime import datetime
 
 app = Flask(__name__)
-CORS(app, origins=["http://localhost:3000", "http://127.0.0.1:3000"], supports_credentials=True)
+CORS(app, origins="*", supports_credentials=True)
 
 try:
     # Initialize services
